@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: "MVB-SolanoGothicMVB-B";
+    src: url("MVB-SolanoGothicMVB-Bd.woff") format("woff");
+}
+
+header {
+    background-color: darkviolet;
+    color: white;
+    position: sticky;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerlogo {
+    font-family: 'MVB-SolanoGothicMVB-B';
+    font-size: 30px;
+}
+
+.eraTitle {
+    font-family: 'MVB-SolanoGothicMVB-B';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+
+    /**/
+
+    margin: 50px auto;
+    width: 70%;
+    height: fit-content;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 20px;
+
+    /*Grid Right Orientation Layout for each era*/
+
+    display: grid;
+    grid-template-columns: 60% 350px; 
+    grid-template-rows: 1fr;
+    gap: 0px 50px; 
+    grid-template-areas:
+    "albumInfo albumArtwork";
+}
+
+.albumArtwork { 
+    grid-area: albumArtwork;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.albumInfo {
+    grid-area: albumInfo;
+    position: relative;
+}
+
+.albumTitle {
+    font-family: 'MVB-SolanoGothicMVB-B';
+    font-size: 40px;
+}
+
+.albumOrder {
+    font-family: 'MVB-SolanoGothicMVB-B';
+    font-size: 20px;
+}
+
+.albumSales {
+    font-family: 'MVB-SolanoGothicMVB-B';
+    font-size: 20px;
+}
+
+#toocool4skoolmain {
+    background-color: #191919;
+    color: #ffffff;
+}
+
+#toocool4skool2nd {
+    color: #e4b04b;
+}
+
+#ohrul82main {
+    background-color: #ffffff;
+    color: #bf1515;
+}
+
+#ohrul82nd {
+    color: #a7a7a7;
+}
+
+#ohrul823rd {
+    color: #4e4e4e;
+}
+
+#skoolluvmain {
+    background-color: #2e3a32;
+    color: #ffffff;
+}
+
+#skoolluv2nd {
+    color: #c69297;
+}
