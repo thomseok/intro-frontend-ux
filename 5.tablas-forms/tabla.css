@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(1,94,131);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
